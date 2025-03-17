@@ -139,32 +139,16 @@ const handleCheckout = async () => {
   if (isLoading) return;
   setIsLoading(true);
 
-  if (!userId) {
-    alert(t("Checkout.checkout.alerts.loginRequired"));
-    setIsLoading(false);
-    return;
-  }
-  if (!selectedAddress) {
-    alert(t("Checkout.checkout.alerts.selectAddress"));
-    setIsLoading(false);
-    return;
-  }
-  if (!paymentMethod) {
-    alert(t("Checkout.checkout.alerts.selectPaymentMethod"));
-    setIsLoading(false);
-    return;
-  }
-
-  const { total, shippingFee, finalTotal } = calculateTotal();
-  const cartItems = JSON.parse(localStorage.getItem("CartItems")) || [];
-
-  if (!cartItems.length) {
-    alert(t("Checkout.checkout.alerts.emptyCart"));
-    setIsLoading(false);
-    return;
-  }
-
   try {
+    if (!userId) throw new Error(t("Checkout.checkout.alerts.loginRequired"));
+    if (!selectedAddress) throw new Error(t("Checkout.checkout.alerts.selectAddress"));
+    if (!paymentMethod) throw new Error(t("Checkout.checkout.alerts.selectPaymentMethod"));
+
+    const { total, shippingFee, finalTotal } = calculateTotal();
+    const cartItems = JSON.parse(localStorage.getItem("CartItems")) || [];
+
+    if (!cartItems.length) throw new Error(t("Checkout.checkout.alerts.emptyCart"));
+
     if (paymentMethod === "cashOnDelivery") {
       const order = {
         userId,
@@ -197,45 +181,45 @@ const handleCheckout = async () => {
       navigate("/Profile/orders");
       window.location.reload();
     } else if (paymentMethod === "online") {
-      const response = await fetch("https://big-store-server.vercel.app/create-checkout-session", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          paymentMethod,
-          selectedAddress,
-          cartItems,
-          totalAmount: finalTotal,
-          shippingFee,
-          userId,
-          language,
-        }),
-      });
+      const createCheckoutSession = async () => {
+        const response = await fetch("https://big-store-server.vercel.app/create-checkout-session", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            paymentMethod,
+            selectedAddress,
+            cartItems,
+            totalAmount: finalTotal,
+            shippingFee,
+            userId,
+            language,
+          }),
+        });
 
-      if (response.ok) {
-        const { sessionId } = await response.json();
-        const stripe = await stripePromise;
-        const { error } = await stripe.redirectToCheckout({ sessionId });
+        if (!response.ok) throw new Error(`HTTP error! Status: ${response.status}`);
 
-  if (error) {
-    console.error("خطأ أثناء الدفع:", error);
-    alert(t("Checkout.checkout.alerts.errors.paymentError"));
-  } else {
-    localStorage.removeItem("CartItems");
-    alert(t("Checkout.checkout.alerts.orderSuccess"));
-    navigate("/Profile/orders");
-    window.location.reload();
-  }
-} else {
-  alert(t("Checkout.checkout.alerts.errors.paymentError"));
-}
+        return response.json();
+      };
+
+      const { sessionId } = await createCheckoutSession();
+      const stripe = await stripePromise;
+      const { error } = await stripe.redirectToCheckout({ sessionId });
+
+      if (error) throw new Error("خطأ أثناء الدفع");
+      
+      localStorage.removeItem("CartItems");
+      alert(t("Checkout.checkout.alerts.orderSuccess"));
+      navigate("/Profile/orders");
+      window.location.reload();
     }
   } catch (error) {
-    console.error("خطأ أثناء تنفيذ عملية الدفع:", error);
-    alert(t("Checkout.checkout.alerts.errors.paymentError"));
+    console.error("خطأ أثناء تنفيذ عملية الدفع:", error.message);
+    alert(error.message || t("Checkout.checkout.alerts.errors.paymentError"));
   } finally {
     setIsLoading(false);
   }
 };
+
 
 
 
