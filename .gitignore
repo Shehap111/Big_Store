@@ -27,3 +27,4 @@ dist-ssr
 /server/dropshipping-db-*.json
 /dropshipping-db-*.json
 /server/node_modules
+/server
