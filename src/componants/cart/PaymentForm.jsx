@@ -197,7 +197,10 @@ const handleCheckout = async () => {
       navigate("/Profile/orders");
       window.location.reload();
     } else if (paymentMethod === "online") {
-      const response = await fetch("http://localhost:4242/create-checkout-session", {
+const API_BASE_URL = process.env.NODE_ENV === "production"
+  ? "https://your-live-server.com"
+  : "http://localhost:4242";
+     const response = await fetch(`${API_BASE_URL}/checkout-success`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
