@@ -174,7 +174,8 @@ const handleCheckout = async () => {
           sales: increment(item.quantity),
         });
       });
-      await batch.commit();
+
+      await batch.commit(); // تأكدنا إن المخزون اتحدث قبل إزالة الكارت
 
       localStorage.removeItem("CartItems");
       alert(t("Checkout.checkout.alerts.orderSuccess"));
@@ -202,11 +203,14 @@ const handleCheckout = async () => {
       };
 
       const { sessionId } = await createCheckoutSession();
+
       const stripe = await stripePromise;
+      if (!stripe) throw new Error("Stripe لم يتم تحميله بشكل صحيح.");
+
       const { error } = await stripe.redirectToCheckout({ sessionId });
 
-      if (error) throw new Error("خطأ أثناء الدفع");
-      
+      if (error) throw new Error(error.message || t("Checkout.checkout.alerts.errors.paymentError"));
+
       localStorage.removeItem("CartItems");
       alert(t("Checkout.checkout.alerts.orderSuccess"));
       navigate("/Profile/orders");
@@ -214,11 +218,12 @@ const handleCheckout = async () => {
     }
   } catch (error) {
     console.error("خطأ أثناء تنفيذ عملية الدفع:", error.message);
-    alert(error.message || t("Checkout.checkout.alerts.errors.paymentError"));
+    alert(error?.message || t("Checkout.checkout.alerts.errors.paymentError"));
   } finally {
     setIsLoading(false);
   }
 };
+
 
 
 
