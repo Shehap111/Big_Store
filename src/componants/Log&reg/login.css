@@ -1,0 +1,121 @@
+.login{
+    min-height: 100vh;
+    background-image: url(../../img/intro_section.webp);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 100%;
+}
+.login form{
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;  
+    padding: 40px 25px;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+.login form h1{
+    color: var(--bgColor);
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+.login form input{
+    border: var(--mainBorder);
+    border-radius: 5px;
+    background-color: #1A1A1A;
+    margin: 10px 0;
+    height: 50px;
+    padding: 10px;
+    color: #fff;
+}
+.login form input:focus{
+    background-color: var(--bgColor);
+    border-color: var(--btnColor) !important;
+    color: #515151;
+}
+.login form input::placeholder{
+    color:#7b7979;
+}
+.login form img{
+    width: 200px;
+    margin-bottom: 50px;
+}
+.login form button{
+    margin: 20px 0;
+    background-color: var(--btnColor) ;
+    color:#1A1A1A;
+}
+.login form .lastlink{
+    color: var(--btnColor);
+    display: block;
+    margin-top: 20px;
+}
+.login .logo{
+    position: absolute;
+    left: 20px;
+    bottom: 50px;
+}
+.login .logo img{
+    width: 200px;
+}
+.img_label{
+width: 150px !important;
+height: 150px;
+margin-bottom: 20px;
+}
+.img_label img{
+    border-radius: 50%;
+    cursor: pointer;
+    width: 150px !important;
+    height: 150px;
+    margin: 10px 0 !important;
+    margin: auto;
+}
+.img_input{
+    display: none;  
+}
+.login form .google-btn{
+    width: 50px !important;
+    height: 50px !important;
+    background-color: transparent;
+}
+.google-btn img{
+    width: 50px !important;
+    height: 50px !important;
+    background-color: transparent;
+}
+@media screen and (max-width: 767px) {
+.login form{
+    width: 100%;
+    backdrop-filter: blur(8px);
+    z-index: 1;
+    height: 100% !important;
+    background-color: #000000cb;
+}
+.login .login::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    top: 0;
+    right: 0;
+    z-index: 0;
+}
+.login .logo{
+    z-index: 8;
+}
+.Register{
+    height: 125vh;
+}
+}
+
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+.login form{
+    width: 60%;
+}
+}

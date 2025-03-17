@@ -1,0 +1,351 @@
+.Profile{
+    padding: 70px 0;
+}
+.Profile_sidebar{
+    padding: 30px 0;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+.Profile_sidebar .box{
+    text-align: center;
+}
+.Profile_sidebar .Profile_sidebar_links li a{
+    padding: 10px 15px;
+    text-align: left;
+}
+.Profile_sidebar .Profile_sidebar_links li i{
+    width: 20px;
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+.Profile_sidebar .box h3{
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: var(--pColor);
+}
+.Profile_sidebar .box h3 span{
+    color: #000;
+}
+.Profile_sidebar .box h5{
+    font-size: 16px;
+    color: #666;
+    margin: 10px 0;
+}
+.Profile_sidebar .box a{
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 5px;
+    color: #000;
+    display: block;
+    margin: 10px 0 ;
+    font-weight: 600;
+    border: 1px solid #ccc;
+    transition: all ease-in .2s !important;
+    box-shadow: 1px 1px 5px 1px  #cccccc7b;
+}
+.Profile_sidebar .box li:hover a{
+    color: var(--btnColor);
+}
+.Profile_sidebar .box .active{
+    color: var(--btnColor);
+}
+/* oreders */
+
+ h2{
+    text-align: center;
+    color: var(--secondColor) !important;
+    margin-bottom: 20px;
+    font-weight: 600 !important;
+}
+.oreders .box{
+    padding: 20px ;
+    background-color: var(--bgColor);
+    border-radius: 10px;
+    margin: 10px 0;
+}
+.oreders .box .top_of_box{
+    padding-top: 20px !important ;
+    border-top: 1px solid #666666a4;
+}
+.oreders .box ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.oreders .box ul a{
+    color: var(--btnColor);
+    font-size: 20px;
+    font-weight: 600;
+}
+.oreders .box ul a i{
+    transition: all ease-in .1s;
+}
+.oreders .box ul a:hover i{
+    transform: translateX(5px);
+}
+.oreders .box li{
+    font-size: 18px;
+}
+.oreders .box li span{
+    color: var(--pColor);
+    font-size: 16px;
+}
+/* SingleOrder */
+.single-order{
+    position: relative;
+}
+.order-shipment {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    border-radius: 30px;
+    overflow: hidden;
+    padding: 0 50px;
+}
+
+.shipment-path {
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background: linear-gradient(to right, #ddd, #bbb);
+    margin-top: 40px;
+    border-radius: 5px;
+}
+
+.step {
+    position: absolute;
+    top: -35px;
+    width: 70px;
+    height: 70px;
+    background-color: #ccc;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+    color: #000;
+    z-index: 10;
+    transform: translateX(-50%);
+    transition: background-color 0.5s ease-in-out;
+    display: flex;
+    padding-top: 10px;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.step.active {
+    background-color:#568df1;
+    color:#fff
+}
+
+.step::after {
+    content: attr(data-step);
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 12px;
+    color: #666;
+}
+
+.shipment-car {
+    position: absolute;
+    top: -15px;
+    width: 70px;
+    height: 70px;
+    color: #3498db;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    transition: left 1s ease-in-out;
+    z-index: 999;
+    transform: translateX(-30px);
+}
+
+.address-box,
+.products-box,
+.order-summary {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+.address-box .box , .order-summary{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.address-box .box .btns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.address-box .box .btns .delete{
+    display: block;
+    background-color: #f27474; 
+    margin-left: 20px;
+
+}
+.address-box h3,
+.products-box h3,
+.order-summary h3 {
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: var(--pColor);
+
+}
+.products-box .Pro{
+    display: flex;
+    flex-wrap: wrap;
+}
+.products-box .allBox{
+    width: 25%;
+}
+.products-box .box{
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px 1px #6666662f;
+    overflow: hidden;
+    margin: 10px;
+}
+.products-box .box .image{
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    margin: auto;
+}
+.products-box .box a{
+    color: var(--btnColor);
+    display: block;
+    margin-top: 10px;
+    transition: all ease-in .2s;
+    font-size: 20px;
+    height: 30px;
+    overflow: hidden;
+}
+.products-box .box a:hover{
+    opacity: .7;
+}
+.products-box .box p{
+    margin:0 !important;
+}
+/* Address */
+.Address .form-container{
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px; 
+    width: 100%;
+}
+.Address .form-container form{
+    display: flex;
+    flex-wrap: wrap;
+}
+.Address .form-container form input{
+    width: 48% !important;
+    margin: 1% ;
+}
+.Address .form-container form button{
+    margin: 1%;
+}
+/* Edit_profil */
+.Edit_profil{
+    width: 50%;
+    margin: auto;
+    padding: 50px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 5px 1px #cccccc8e;
+    border-radius: 20px;
+}
+.Edit_profil label{
+    margin-top: 20px;
+    display: block;
+}
+.Edit_profil img{
+    border-radius: 50%;
+    min-height: 100%;
+    min-width: 100%;
+}
+.Edit_profil .user_edit_img label{
+    background-color: #e4dddd;
+    border-radius: 50%;
+    cursor: pointer;
+    overflow: hidden;
+    width: 120px;
+    height: 120px;
+}
+.Edit_profil .user_edit_img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Edit_profil .user_edit_img input{
+    display: none;
+}
+/* wishlist */
+.wishlist .image{
+    height: 250px;
+    overflow: hidden;
+    padding: 25px;
+}
+.wishlist .allbox{
+    box-shadow: 1px 1px 5px 1px #6d6d6d77;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    margin: 10px 0;
+}
+.wishlist .allbox a{
+    color: var(--btnColor);
+    font-size: 22px !important;
+    transition: all ease-in .2s;
+    display: block;
+    margin: 15px 0;
+    height: 30px;
+    overflow: hidden;
+}
+.wishlist .allbox a:hover{
+    color: var(--secondColor);
+}
+@media screen and (max-width: 767px) {
+.Edit_profil{
+    width: 100%;
+    margin-top: 30px;
+}
+.oreders .box ul{
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+.oreders .box{
+    padding: 20px 10px !important;
+}
+.oreders .box ul a{
+    display: block;
+    margin-top: 10px;
+}
+.products-box .allBox{
+    width: 50%;
+}
+.address-box .box,
+.order-summary{
+    flex-direction: column;
+    align-items: start;
+}
+.Address .form-container form{
+    flex-direction: column;
+}
+.Address .form-container form input{
+    width: 100% !important;
+}
+}
+
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+
+}

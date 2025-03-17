@@ -1,0 +1,224 @@
+.Main_dashboard{
+    display: flex;
+    min-height: 100vh;   
+    max-width: 100%;
+    overflow: hidden;
+}
+.sidebar {
+    background: linear-gradient(to bottom, #a8d5e2, #f5f9fa);
+    color: #000;
+    padding-top: 20px;
+    position: relative;
+    height: 100%;
+    
+}
+.css-ewdv3l{
+    position: sticky;
+    top: 30px ;
+    left: 0;
+}
+.sidebar .Welcome{
+    margin-bottom: 50px;
+}
+.ps-sidebar-container {
+    background-color: transparent !important;
+}
+/* add-product */
+.add-product-container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.add-product-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.add-product-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.add-product-container label {
+    font-weight: bold;
+}
+
+.add-product-container input,
+.add-product-container textarea,
+.add-product-container select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.add-product-container img.image-preview {
+    width: 150px;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.add-product-container button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-product-container button:hover {
+    background-color: #45a049;
+}
+ input[type="number"]::-webkit-inner-spin-button,
+ input[type="number"]::-webkit-outer-spin-button {
+     -webkit-appearance: none; 
+     margin: 0;
+ }
+
+
+/* products  */
+.cattSupcatt{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.image_pairnt img{
+    width: 200px !important;
+    height: 200px !important;
+    border-radius: 20px !important;
+}
+.image_pairnt input{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: block;
+    width: 100%;    
+}
+.Add_blog img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50px;
+    display: block;
+}
+.Add_blog select{
+    margin: 10px 0;
+}
+.Add_blog  button{
+    display: block;
+    margin: 20px 0;
+}
+.Add_blog input[type="file"] {
+    display: none;
+}
+
+.Add_blog .file-label {
+    display: inline-block;
+    background-color: #0d1217;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    margin: 10px 0;
+    
+}
+
+.Add_blog .file-label:hover {
+    background-color: #0056b3;
+}
+/* add offer */
+.multi-select-container {
+  width: 100% !important;
+}
+
+.search-input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  display: block;
+}
+input[type="date"] , input[type="number"]{
+  width: 100%;
+  height: 45px;
+  border: 1px solid #ccc;
+  margin: 10px 0;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.dropdown_Product {
+  width: 100%;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-top: 5px;
+  max-height: 200px;
+  overflow-y: auto; /* سكرول داخلي لو العدد كبير */
+  z-index: 10;
+}
+
+.dropdown-item {
+  display: flex;
+  align-items: center;
+  padding: 8px !important;
+  cursor: pointer;
+  margin: 5px 0;
+  border: 1px solid #00000073 !important;
+  border-radius: 5px !important;
+}
+
+.dropdown-item:hover {
+  background: #f0f0f0;
+}
+
+.dropdown-img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.selected-products {
+  margin-top: 10px;
+  overflow-y: auto; /* سكرول داخلي */
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 100% !important;
+  padding: 5px;
+}
+
+.selected-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  border-bottom: 1px solid #eee;
+}
+
+.selected-img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.remove-btn {
+  background: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.remove-btn:hover {
+  background: darkred;
+}

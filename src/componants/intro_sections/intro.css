@@ -1,0 +1,54 @@
+.Intro-Sections{
+    height: 250px;
+    width: 100%;
+    background-image: url(../../img/intro_section.webp);
+    background-position: top;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+
+}
+.Intro-Sections::after{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.341);
+}
+.Intro-Sections ul{
+    display: flex;
+    margin-top: 20px ;
+    text-align: center !important;
+}
+.Intro-Sections ul li{
+    margin: 0 15px ;
+    color: #fff;
+    font-size: 24px; 
+    cursor: pointer;   
+    transition: all ease-in .2s;
+}
+.Intro-Sections ul li:hover ,.Intro-Sections a:hover{
+    color: #ffd300;
+}
+.Intro-Sections h1{
+    font-size: 52px;
+    color: #fff;
+    text-align: center;
+}
+.ind{
+    z-index: 1111;
+}
+.Intro-Sections a{
+    color: #fff;
+    transition: all ease-in .2s;
+}
+.Intro-Sections span{
+    font-size: 24px;
+    color: #fff;
+}

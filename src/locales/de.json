@@ -1,0 +1,303 @@
+{
+  "footer": {
+    "subscribeTitle": "Abonnieren Sie, um mitzumachen!",
+    "subscribeDescription": "Abonnieren Sie, um Gutscheininformationen zu erhalten.",
+    "placeholder": "Ihre E-Mail-Adresse...",
+    "subscribeButton": "Abonnieren",
+    "getInTouch": "Kontakt aufnehmen",
+    "callUs": "Rufen Sie uns rund um die Uhr kostenlos an",
+    "address": "60, 29th Street, San Francisco, CA 94110, Vereinigte Staaten support@arostore.com",
+    "information": "Informationen",
+    "aboutUs": "Über uns",
+    "services": "Dienstleistungen",
+    "shop": "Shop",
+    "contactUs": "Kontaktieren Sie uns",
+    "privacyPolicy": "Datenschutzrichtlinie",
+    "login": "Anmelden",
+    "usefulLinks": "Nützliche Links",
+    "smartphones": "Smartphones",
+    "laptop": "Laptop",
+    "clothes": "Kleidung",
+    "fitnessEquipment": "Fitnessgeräte",
+    "campingGear": "Campingausrüstung",
+    "myAccount": "Mein Konto",
+    "orders": "Bestellungen",
+    "copyRight": "© 2025 Markenladen. Alle Rechte vorbehalten.",
+    "madeWith": "Gemacht mit",
+    "by": "von"
+  },
+  "header": {
+    "home": "Startseite",
+    "about": "Über uns",
+    "shop": "Shop",
+    "categorys": "Kategorien",
+    "blogs": "Blogs",
+    "contact": "Kontakt",
+    "cart": "Warenkorb",
+    "wishlist": "Favoriten",
+    "profile": "Profil",
+    "logout": "Abmelden",
+    "login": "Anmelden"
+  },
+"about": {
+  "introTitle": "Über uns",
+  "introLink": "ÜberUns",
+  "luxuryProductsTitle": "Luxus- und High-End-Technologieprodukte",
+  "description": "Nulla bibendum tincidunt ligula, a placerat dolor viverra eget. Maecenas id diam sed ligula facilisis lacinia. Nunc maximus est ut sem varius suscipit. Phasellus vel tellus viverra, lacinia metus et, faucibus tellus. Etiam hendrerit est viverra eros mollis, a laoreet ante dictum.",
+  "technologyProduct": "Technologieprodukt",
+  "employees": "Mitarbeiter",
+  "happyUsers": "Zufriedene Benutzer",
+  "ourStores": "Unsere Geschäfte",
+  "whirlpoolExperience": "Über WhitPooL. Wir glauben, dass die beste Erfahrung immer gewinnt",
+  "quote": "“ Unsere Arbeit macht nur Sinn, wenn sie ein treuer Zeuge ihrer Zeit ist. ”",
+  "teamTitle": "Unser Team. Presse.",
+  "paragraph1": "Pellentesque sodales ornare nulla. Nullam elementum est quis tortor ultricies tristique.",
+  "paragraph2": "Nulla bibendum tincidunt ligula, a placerat dolor viverra eget.",
+  "socialLinks": "Soziale Links"
+},
+  "contact": {
+    "title": "Kontaktieren Sie uns",
+    "subtitle": "Bleiben Sie mit uns in Verbindung",
+    "successMessage": "Ihre Nachricht wurde erfolgreich gesendet!",
+    "form": {
+      "fullName": "Vollständiger Name",
+      "email": "E-Mail-Adresse",
+      "phone": "Telefonnummer",
+      "message": "Ihre Nachricht",
+      "submit": "SENDEN",
+      "submitting": "Wird gesendet..."
+    },
+    "getInTouch": {
+      "title": "Bleiben Sie in Kontakt",
+      "description": "Wenn Sie an einer Zusammenarbeit interessiert sind, kontaktieren Sie uns bitte.",
+      "addressTitle": "Unsere Adresse",
+      "addressDetails": "1247/Grundstück Nr. 39, 15. Phase, Huab Colony, Kukatpally, Hyderabad",
+      "emailTitle": "Unsere E-Mail",
+      "emailDetails": "info@Shehap@gmail.com"
+    }
+  },
+"Intro":{
+    "title": "Startseite"
+  
+},
+  "login": {
+    "emailPlaceholder": "E-Mail",
+    "passwordPlaceholder": "Passwort",
+    "signIn": "Anmelden",
+    "noAccount": "Sie haben kein Konto?",
+    "success": "Sie wurden erfolgreich angemeldet",
+    "noUserData": "Es gibt keine Benutzerdaten, die mit dieser E-Mail verknüpft sind",
+    "invalidCredentials": "Ungültige E-Mail oder Passwort. Bitte versuchen Sie es erneut"
+  },
+  "register": {
+    "fullNamePlaceholder": "Vollständiger Name",
+    "emailPlaceholder": "E-Mail",
+    "phonePlaceholder": "Telefon",
+    "passwordPlaceholder": "Passwort",
+    "signUpButton": "Anmelden",
+    "alreadyHaveAccount": "Ich habe bereits ein Konto",
+    "uploadError": "Bitte wählen Sie ein korrektes Bild",
+    "successMessage": "Registrierung erfolgreich abgeschlossen",
+    "registrationFailed": "Registrierung fehlgeschlagen: {error}",
+    "invalidImage": "Bitte wählen Sie ein gültiges Bild aus",
+    "signUp": "Registrieren"
+  },
+  "categories":{
+    "introLink": "Kategorien",
+      "view": "Ansehen"
+  },
+  "supCategories":{
+    "introLink": "Unterkategorien",
+      "view": "Ansehen"
+  },
+  "Products_by_supcat":{
+  "addToCart": "In den Warenkorb",
+  "products": "Produkte"
+  },
+"Cart": {
+  "introLink": "Warenkorb",
+  "emptyMessage": "Ihr Warenkorb ist leer!",
+  "table": {
+    "product": "Produkt",
+    "name": "Name",
+    "price": "Preis",
+    "quantity": "Menge",
+    "total": "Gesamt",
+    "Clear": "Warenkorb leeren",
+    "delete": "Löschen"
+  },
+  "summary": {
+    "totalProducts": "Gesamtanzahl Produkte",
+    "totalQuantity": "Gesamtanzahl Menge",
+    "subTotal": "Zwischensumme",
+    "shippingFee": "Versandkosten",
+    "freeShipping": "Kostenloser Versand",
+    "totalAmount": "Gesamtbetrag"
+  },
+"Checkout": "Zur Kasse",
+"Login": "Anmelden"  
+},
+ "Checkout": {
+    "AddressForm": {
+      "title": "Neue Adresse hinzufügen",
+      "formLabels": {
+        "fullName": "Vollständiger Name",
+        "phoneNumber": "Telefonnummer",
+        "city": "Stadt",
+        "governorate": "Bundesland",
+        "selectGovernorate": "Wählen Sie ein Bundesland",
+        "detailedAddress": "Detaillierte Adresse",
+        "postalCode": "Postleitzahl"
+      },
+      "buttons": {
+        "saveAddress": "Adresse speichern"
+      },
+      "alerts": {
+        "success": "Adresse erfolgreich gespeichert!",
+        "error": "Speichern der Adresse fehlgeschlagen."
+      }
+    },
+"productDisplay": {
+  "title": "Ihre Produkte im Warenkorb",
+  "noProductsMessage": "Keine Produkte im Warenkorb.",
+  "quantity": "Menge"
+},
+"addressSelection": {
+  "title": "Wählen Sie eine Adresse",
+  "loading": "Lade Adressen...",
+  "noAddresses": "Keine Adressen hinzugefügt."
+},
+"paymentMethodSelection": {
+  "title": "Zahlungsmethode auswählen",
+  "onlinePayment": "Online-Zahlung",
+  "cashOnDelivery": "Nachnahme"
+},
+"checkout": {
+  "subtotal": "Zwischensumme",
+  "shippingFee": "Versandkosten",
+  "freeShipping": "Kostenloser Versand",
+  "totalAmount": "Gesamtbetrag",
+  "completeOrder": "Bestellung abschließen",
+  "processingOrder": "Bestellung wird verarbeitet...",
+  "alerts": {
+    "loginRequired": "Sie müssen sich anmelden, um die Bestellung abzuschließen.",
+    "selectAddress": "Bitte wählen Sie eine Adresse für die Bestellung aus.",
+    "selectPaymentMethod": "Bitte wählen Sie eine Zahlungsmethode.",
+    "emptyCart": "Keine Produkte im Warenkorb!",
+    "orderSuccess": "Bestellung erfolgreich aufgegeben! Vielen Dank für Ihren Einkauf.",
+    "paymentError": "Ein Fehler ist bei der Weiterleitung zur Zahlungsseite aufgetreten.",
+    "sessionError": "Ein Fehler ist beim Erstellen der Zahlungssitzung aufgetreten."
+  }
+},
+"SuccessPage": {
+  "Thank-for-purchasing": "Vielen Dank für den Kauf unserer Produkte. Ihre Bestellung wird bald versandt.",
+  "Payment-completed-successfully": "Zahlung erfolgreich abgeschlossen"
+}
+
+
+
+  },
+"Products":{
+  "Products":"Produkte",
+  "Filters": {
+    "Filters": "Filter",
+    "Category": "Kategorie",
+    "All": "Alle",
+    "Minimum-Rating": "Mindestbewertung",
+    "Price-Range": "Preisspanne",
+    "Sort-By": "Nach Preis sortieren",
+    "Low-to-High":"Niedrig bis Hoch",
+    "High-to-Low":"Hoch bis Niedrig"
+  },
+  "Product": {
+    "Discount": "Rabatt",
+    "Add-to-Cart": "In den Warenkorb",
+    "No-products-match": "Keine Produkte entsprechen den ausgewählten Filtern."
+  }
+},"Single-product":{
+  "Price":"Preis",
+  "Brand":"Marke",
+  "Category":"Kategorie",
+  "Subcategory":"Unterkategorie",
+  "description":"Beschreibung",
+  "Discount":"Rabatt",
+  "Stock":"Lagerbestand",
+  "Reviews":"Bewertungen",
+  "Rating":"Bewertung",
+  "Available-Colors":"Verfügbare Farben",  
+  "Add-to-Cart":"In den Warenkorb"
+},
+"User": {
+"Profile":{
+  "Profile":"Profil",  
+  "Edit-Profile":"Profil bearbeiten",
+  "Orders":"Bestellungen",
+  "Favorites":"Favoriten",
+  "Address":"Adresse",
+  "Logout":"Abmelden",
+  "Hello":"Hallo",
+  "User_not_login":"Benutzer nicht eingeloggt",
+  "Lodding":"Daten werden geladen..."
+},
+
+  "Address": {
+    "address": "Adresse",
+    "your_addresses": "Ihre Adressen",
+    "add_new_address": "Neue Adresse hinzufügen",
+    "edit_address": "Adresse bearbeiten",
+    "full_name": "Vollständiger Name",
+    "detailed_address": "Detaillierte Adresse",
+    "city": "Stadt",
+    "state": "Bundesland",
+    "postal_code": "Postleitzahl",
+    "phone_number": "Telefonnummer",
+    "add_address": "Adresse hinzufügen",
+    "update_address": "Adresse aktualisieren",
+    "address_added": "Adresse erfolgreich hinzugefügt",
+    "address_updated": "Adresse erfolgreich aktualisiert",
+    "address_deleted": "Adresse erfolgreich gelöscht",
+    "loading": "Laden...",
+    "shipping_address": "Lieferadresse",
+    "name": "Name",
+    "no_addresses": "Keine Adressen vorhanden",
+    "edit": "Bearbeiten",
+    "phone": "Telefon"
+},
+"Edit_profile":{
+  "profile_updated": "Profil wurde erfolgreich aktualisiert",
+  "profile_update_failed": "Profilaktualisierung fehlgeschlagen",
+  "invalid_image": "Bitte wählen Sie eine gültige Bilddatei aus",
+  "profile_picture": "Profilbild",
+  "name": "Name",
+  "phone": "Telefonnummer",
+  "update_profile": "Profil aktualisieren"
+},
+"orders": {
+  "your_orders": "Ihre Bestellungen",
+  "order_id": "Bestellnummer",
+  "order_status": "Bestellstatus",
+  "payment_status": "Zahlungsstatus",
+  "total": "Gesamt",
+  "products_count": " Produkte",
+  "view_details": "Details anzeigen"
+},
+"SingleOrder":{
+  "Order-Details":"Bestelldetails",
+  "Shipping_Address":"Lieferadresse",
+  "Price":"Preis",
+  "Total-Amount":"Gesamtbetrag",
+  "Shipping-Fee":"Versandkosten",
+  "Payment-Method":"Zahlungsmethode",
+  "Delivery-Date":"Lieferdatum",
+  "Processing":"In Bearbeitung",
+  "Shipped":"Versandt",
+  "Delivered":"Geliefert"
+
+}
+
+
+
+
+}
+
+}

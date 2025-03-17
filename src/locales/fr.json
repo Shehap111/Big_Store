@@ -1,0 +1,306 @@
+{
+  "footer": {
+    "subscribeTitle": "Abonnez-vous pour nous rejoindre !",
+    "subscribeDescription": "Abonnez-vous pour recevoir des coupons d'information.",
+    "placeholder": "Votre adresse e-mail...",
+    "subscribeButton": "S'abonner",
+    "getInTouch": "Contactez-nous",
+    "callUs": "Appelez-nous 24/7 gratuitement",
+    "address": "60, 29th Street, San Francisco, CA 94110, États-Unis support@arostore.com",
+    "information": "Informations",
+    "aboutUs": "À propos de nous",
+    "services": "Services",
+    "shop": "Boutique",
+    "contactUs": "Contactez-nous",
+    "privacyPolicy": "Politique de confidentialité",
+    "login": "Connexion",
+    "usefulLinks": "Liens utiles",
+    "smartphones": "Smartphones",
+    "laptop": "Ordinateur portable",
+    "clothes": "Vêtements",
+    "fitnessEquipment": "Équipements de fitness",
+    "campingGear": "Équipement de camping",
+    "myAccount": "Mon compte",
+    "orders": "Commandes",
+    "copyRight": "© 2025 boutique de marque. Tous droits réservés.",
+    "madeWith": "Fait avec",
+    "by": "par"
+  },
+  "header": {
+    "home": "Accueil",
+    "about": "À propos",
+    "shop": "Boutique",
+    "categorys": "Catégories",
+    "blogs": "Blogs",
+    "contact": "Contact",
+    "cart": "Panier",
+    "wishlist": "Favoris",
+    "profile": "Profil",
+    "logout": "Déconnexion",
+    "login": "Connexion"
+  },
+"about": {
+  "introTitle": "À propos de nous",
+  "introLink": "ÀPropos",
+  "luxuryProductsTitle": "Produits de luxe et technologies de pointe",
+  "description": "Nulla bibendum tincidunt ligula, a placerat dolor viverra eget. Maecenas id diam sed ligula facilisis lacinia. Nunc maximus est ut sem varius suscipit. Phasellus vel tellus viverra, lacinia metus et, faucibus tellus.",
+  "technologyProduct": "Produit technologique",
+  "employees": "Employés",
+  "happyUsers": "Utilisateurs satisfaits",
+  "ourStores": "Nos magasins",
+  "whirlpoolExperience": "À propos de WhitPooL. Nous croyons que la meilleure expérience l'emporte toujours",
+  "quote": "“ Notre travail n'a de sens que s'il est un témoin fidèle de son époque. ”",
+  "teamTitle": "Notre équipe. Presse.",
+  "paragraph1": "Pellentesque sodales ornare nulla. Nullam elementum est quis tortor ultricies tristique.",
+  "paragraph2": "Nulla bibendum tincidunt ligula, a placerat dolor viverra eget.",
+  "socialLinks": "Liens sociaux"
+},
+  "contact": {
+    "title": "Contactez-nous",
+    "subtitle": "Restez en contact avec nous",
+    "successMessage": "Votre message a été envoyé avec succès !",
+    "form": {
+      "fullName": "Nom complet",
+      "email": "Adresse e-mail",
+      "phone": "Numéro de téléphone",
+      "message": "Votre message",
+      "submit": "ENVOYER",
+      "submitting": "Envoi en cours..."
+    },
+    "getInTouch": {
+      "title": "Contactez-nous",
+      "description": "Si vous êtes intéressé par une collaboration avec nous, veuillez nous contacter.",
+      "addressTitle": "Notre adresse",
+      "addressDetails": "1247/Parcelle n° 39, 15ème phase, Huab Colony, Kukatpally, Hyderabad",
+      "emailTitle": "Notre e-mail",
+      "emailDetails": "info@Shehap@gmail.com"
+    }
+  },
+"Intro":{
+    "title": "Page d'accueil"  
+},
+  "login": {
+    "emailPlaceholder": "E-mail",
+    "passwordPlaceholder": "Mot de passe",
+    "signIn": "Se connecter",
+    "noAccount": "Vous n'avez pas de compte ?",
+    "success": "Vous êtes connecté avec succès",
+    "noUserData": "Aucune donnée utilisateur associée à cet e-mail",
+    "invalidCredentials": "E-mail ou mot de passe invalide. Veuillez réessayer"
+  },
+    "register": {
+    "fullNamePlaceholder": "Nom Complet",
+    "emailPlaceholder": "E-mail",
+    "phonePlaceholder": "Téléphone",
+    "passwordPlaceholder": "Mot de passe",
+    "signUpButton": "S'inscrire",
+    "alreadyHaveAccount": "J'ai déjà un compte",
+    "uploadError": "Veuillez choisir une image correcte",
+    "successMessage": "Inscription terminée avec succès",
+    "registrationFailed": "Échec de l'inscription : {error}",
+    "invalidImage": "Veuillez choisir une image valide",
+    "signUp": "S'inscrire"
+  },
+  "categories":{
+    "introLink": "Catégories",
+      "view": "Voir"
+  },
+  "supCategories":{
+    "introLink": "Sous-catégories",
+      "view": "Voir"
+  },
+  "Products_by_supcat":{
+  "addToCart": "Ajouter au panier",
+  "products": "Produits"
+  },
+"Cart": {
+  "introLink": "Panier",
+  "emptyMessage": "Votre panier est vide !",
+  "table": {
+    "product": "Produit",
+    "name": "Nom",
+    "price": "Prix",
+    "quantity": "Quantité",
+    "total": "Total",
+    "Clear": "Vider le panier",
+    "delete": "Supprimer"
+  },
+  "summary": {
+    "totalProducts": "Total des produits",
+    "totalQuantity": "Quantité totale",
+    "subTotal": "Sous-total",
+    "shippingFee": "Frais de livraison",
+    "freeShipping": "Livraison gratuite",
+    "totalAmount": "Montant total"
+  },
+  "Checkout": "Paiement",
+"Login": "Connexion"
+},
+"Checkout": {
+    "AddressForm": {
+      "title": "Ajouter une nouvelle adresse",
+      "formLabels": {
+        "fullName": "Nom complet",
+        "phoneNumber": "Numéro de téléphone",
+        "city": "Ville",
+        "governorate": "Région",
+        "selectGovernorate": "Sélectionner une région",
+        "detailedAddress": "Adresse détaillée",
+        "postalCode": "Code postal"
+      },
+      "buttons": {
+        "saveAddress": "Enregistrer l'adresse"
+      },
+      "alerts": {
+        "success": "Adresse enregistrée avec succès !",
+        "error": "Échec de l'enregistrement de l'adresse."
+      }
+    },
+"productDisplay": {
+  "title": "Vos produits dans le panier",
+  "noProductsMessage": "Aucun produit dans le panier.",
+  "quantity": "Quantité"
+},
+"addressSelection": {
+  "title": "Sélectionnez une adresse",
+  "loading": "Chargement des adresses...",
+  "noAddresses": "Aucune adresse ajoutée."
+},
+"paymentMethodSelection": {
+  "title": "Sélectionnez un mode de paiement",
+  "onlinePayment": "Paiement en ligne",
+  "cashOnDelivery": "Paiement à la livraison"
+},
+"checkout": {
+  "subtotal": "Sous-total",
+  "shippingFee": "Frais de livraison",
+  "freeShipping": "Livraison gratuite",
+  "totalAmount": "Montant total",
+  "completeOrder": "Valider la commande",
+  "processingOrder": "Traitement de la commande...",
+  "alerts": {
+    "loginRequired": "Vous devez vous connecter pour finaliser la commande.",
+    "selectAddress": "Veuillez sélectionner une adresse pour la commande.",
+    "selectPaymentMethod": "Veuillez sélectionner un mode de paiement.",
+    "emptyCart": "Aucun produit dans le panier !",
+    "orderSuccess": "Commande passée avec succès ! Merci pour votre achat.",
+    "paymentError": "Une erreur s'est produite lors de la redirection vers la page de paiement.",
+    "sessionError": "Une erreur s'est produite lors de la création de la session de paiement."
+  }
+},
+"SuccessPage": {
+  "Thank-for-purchasing": "Merci d'avoir acheté nos produits. Votre commande sera expédiée bientôt.",
+  "Payment-completed-successfully": "Paiement effectué avec succès"
+}
+
+},
+"Products":{
+  "Products":" Produits",
+  "Filters": {
+    "Filters": "Filtres",
+    "Category": "Catégorie",
+    "All": "Tous",
+    "Minimum-Rating": "Évaluation minimale",
+    "Price-Range": "Plage de prix",
+    "Sort-By": "Trier par prix",
+    "Low-to-High":"Du plus bas au plus élevé",
+    "High-to-Low":"Du plus élevé au plus bas"
+  },
+  "Product": {
+    "Discount": "Réduction",
+    "Add-to-Cart": "Ajouter au panier",
+    "No-products-match": "Aucun produit ne correspond aux filtres sélectionnés."
+  }
+},"Single-product":{
+  "Price":"Prix",
+  "Brand":"Marque",
+  "Category":"Catégorie",
+  "Subcategory":"Sous-catégorie",
+  "description":"Description",
+  "Discount":"Réduction",
+  "Stock":"Stock",
+  "Reviews":"Avis",
+  "Rating":"Évaluation",
+  "Available-Colors":"Couleurs disponibles",  
+  "Add-to-Cart":"Ajouter au panier"
+},
+  "User": {
+"Profile":{
+  "Profile":"Profil",  
+  "Edit-Profile":"Modifier le profil",
+  "Orders":"Commandes",
+  "Favorites":"Favoris",
+  "Address":"Adresse",
+  "Logout":"Déconnexion",
+  "Hello":"Bonjour",
+  "User_not_login":"Utilisateur non connecté",
+  "Lodding":"Chargement des données..."
+},
+
+"Address": {
+      "address": "Adresse",
+      "your_addresses": "Vos adresses",
+      "add_new_address": "Ajouter une nouvelle adresse",
+      "edit_address": "Modifier l'adresse",
+      "full_name": "Nom complet",
+      "detailed_address": "Adresse détaillée",
+      "city": "Ville",
+      "state": "État",
+      "postal_code": "Code postal",
+      "phone_number": "Numéro de téléphone",
+      "add_address": "Ajouter l'adresse",
+      "update_address": "Mettre à jour l'adresse",
+      "address_added": "Adresse ajoutée avec succès",
+      "address_updated": "Adresse mise à jour avec succès",
+      "address_deleted": "Adresse supprimée avec succès",
+      "loading": "Chargement...",
+      "shipping_address": "Adresse de livraison",
+      "name": "Nom",
+      "no_addresses": "Aucune adresse disponible",
+      "edit": "Modifier",
+      "phone": "Téléphone"
+},
+"Edit_profile":{
+  "profile_updated": "Le profil a été mis à jour avec succès",
+  "profile_update_failed": "Échec de la mise à jour du profil",
+  "invalid_image": "Veuillez sélectionner un fichier image valide",
+  "profile_picture": "Photo de profil",
+  "name": "Nom",
+  "phone": "Numéro de téléphone",
+  "update_profile": "Mettre à jour le profil"
+},
+"orders": {
+  "your_orders": "Vos commandes",
+  "order_id": "ID de commande",
+  "order_status": "Statut de la commande",
+  "payment_status": "Statut du paiement",
+  "total": "Total",
+  "products_count": " Produits",
+  "view_details": "Voir les détails"
+},
+"SingleOrder":{
+  "Order-Details":"Détails de la commande",
+  "Shipping_Address":"Adresse de livraison",
+  "Price":"Prix",
+  "Total-Amount":"Montant total",
+  "Shipping-Fee":"Frais de livraison",
+  "Payment-Method":"Mode de paiement",
+  "Delivery-Date":"Date de livraison",
+  "Processing":"En cours de traitement",
+  "Shipped":"Expédié",
+  "Delivered":"Livré"
+
+}
+
+
+
+
+
+}
+
+
+
+
+
+}
+

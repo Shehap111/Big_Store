@@ -1,0 +1,47 @@
+@import url(../main_root.css);
+
+.Categorys{
+    padding: 70px 0;
+}
+.Categorys .box{
+    padding: 25px;
+
+}
+.Categorys .box:hover  img{
+    transform: scale(1.1)  rotate(5deg);
+}
+.Categorys .box .image {
+    border-radius: 10px;
+    height: 300px;
+    margin: 20px 0;
+    overflow: hidden;
+}
+.Categorys .box .image img{
+    min-height: 300px;
+    transition: all ease-in-out .5s !important;
+}
+.Categorys .box h3{
+    font-weight: 600;
+    color: var(--textColor);
+}
+.Categorys .box p{
+    color: var(--pColor);
+}
+.Categorys .box a {
+    background-color: var(--bgColor);
+    width: 100%;
+    display: block;
+    padding: 10px;
+    color: var(--textColor);
+    border-radius: 10px;
+    text-align: center;
+    font-weight: 800;
+    letter-spacing: 2px;
+    font-size: 20px;
+    transition: all ease-in .3s;
+}
+.Categorys .box a:hover{
+    background-color: transparent;
+    border:  var(--mainBorder);
+    letter-spacing: 5px;
+}

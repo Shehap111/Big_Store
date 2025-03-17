@@ -1,0 +1,81 @@
+/* Contacts section */
+.Contacts {
+    padding-bottom: 70px;
+}
+
+.Contacts .row {
+    padding: 50px 0;
+}
+
+.Contacts h3 {
+    font-size: 32px;
+    color: #000;
+}
+
+.Contacts .box_all {
+    padding: 25px;
+}
+
+.Contacts .box_all input {
+    height: 40px;
+    border: 1px solid #0000003f;
+    margin: 30px 0;
+    transition: all ease-in .3s;
+}
+
+.Contacts .box_all textarea {
+    width: 100%;
+    border: 1px solid #0000003f;
+    transition: all ease-in .3s;
+}
+
+.Contacts .box_all .SUBMIT {
+    width: 100%;
+    border: 1px solid #0000003f;
+    transition: all ease-in .3s;
+}
+
+.Contacts .box_all input:focus,
+.Contacts .box_all .SUBMIT:focus {
+    box-shadow: none;
+    border: 1px solid #ffb82b;
+}
+
+textarea:focus {
+    outline: none;
+    box-shadow: none !important;
+    border: 1px solid #ffb82b !important;
+}
+
+.Contacts input::placeholder,
+.Contacts textarea::placeholder {
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+.Contacts .righr_box {
+    padding: 25px;
+}
+
+.Contacts .righr_box ul {
+    display: flex;
+}
+
+.Contacts .righr_box ul li {
+    padding: 20px 0;
+}
+
+.Contacts .righr_box ul li i {
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+.Contacts .righr_box ul li p {
+    font-size: 18px;
+    color: #666;
+}
+
+.Contacts .righr_box ul li h5 {
+    font-size: 24px;
+    color: #000;
+}

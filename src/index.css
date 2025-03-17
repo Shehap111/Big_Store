@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  transition: all ease-in-out .3s;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+body {
+  background-color: var(--mainBgColor);
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--mainBgColor);
+  box-shadow: var(--boxShadow);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--textColor);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  opacity: .6;
+}
+html:lang(ar) {
+  font-family: 'Alexandria', sans-serif !important;
+}
+
+html[dir='rtl'] h1,
+html[dir='rtl'] p,
+html[dir='rtl'] a {
+  font-family: 'Alexandria', sans-serif;
+}
+html[dir='rtl'] .Single_product .product-details p , html[dir='rtl'] .Single_product .product-details .rating {
+  padding-left: 10% ;
+  padding-right: 0 !important;
+}
+html[dir='rtl'] .Single_product .product-details .colors strong {
+    margin-right: 0 !important;
+    margin-left: 20px;
+}
+html[dir='rtl'] .Single_product .product-details .discrip p strong {
+  margin-right: 0 !important;
+  margin-left: 20px;
+}
+
+img {
+  width: 100% ;
+}
+
+li {
+  list-style: none;
+}
+
+ul {
+  padding: 0 !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+p{
+  color: var(--pColor);
+  font-size: 16px;
+  line-height: 1.8;
+}
+.add_to_cart{
+  width: 100%;
+  padding: 10px 0;
+  text-align: center;
+  background-color: var(--bgColor);
+  color: var(--textColor);
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 2px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  text-transform: uppercase;
+  display: block;
+}
+.add_to_cart:hover {
+  background-color: transparent;
+  border: var(--mainBorder);
+  letter-spacing: 5px;
+}
+.swal2-container{
+  overflow: hidden !important;
+} 
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 767px) {
+  h1 {
+    font-size: 42px !important;
+  }
+
+  h3 {
+    font-size: 24px !important;
+  }
+
+  p {
+    font-size: 16px !important;
+    width: 100% !important;
+  }
+
+  span {
+    font-size: 14px !important;
+  }
+}
+
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+  p {
+    width: 100% !important;
+  }
+}

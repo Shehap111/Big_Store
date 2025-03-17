@@ -1,0 +1,120 @@
+:root {
+    --mainBgColor: #F1EAFF;
+    --textColor: #16423C;
+    --btnColor: #E6AF2E;
+    --pColor:#737373;
+    --bgColor: #ededed;
+    --mainBorder:  1px solid rgb(0, 0, 0);
+    --boxShadow:#8f8f8f 1px 1px 5px;
+    --secondColor: #ad5ff2;
+}
+
+/* [data-theme="Dark"]{
+    --mainBgColor:#1f1f1f;
+    --hColor: #100303;
+    --textColor: #ffffff;
+    --btnColor: rgba(255, 255, 255, 0.08);
+    --hColor:#ffffff;
+    --pColor:#aba8a8;
+    --bgColor: #2e2e2e;
+    --mainBorder:  1px solid #6666664e;
+    --boxShadow:#efe4e4 1px 1px 5px;
+    --secondColor: #0084d6;
+
+    
+} */
+
+.intro_section{
+    /* background-image: url(../img/introSections-bg.jpg); */
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.intro_section::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(180deg, #ff42b3 -50%, #000000 100%);
+    opacity: .5;
+}
+.intro{
+    text-align: center;
+    position: relative;
+    margin-bottom: 30px;
+}
+.intro::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: calc(50% - 100px);
+    width: 200px;
+    height: 2px;
+    background-color: #ff42b3;
+
+}
+.intro h3{
+    color: var(--secondColor);
+}
+.intro p{
+    padding-bottom: 20px !important;
+}
+.intro_section h1{
+    font-size: 65px;
+    color: var(--hColor);
+    margin-top: 20px ;
+}
+.intro_section ul {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.intro_section ul li {
+    margin: 0px 10px;
+    color: var(--hColor);
+    font-size: 20px;
+    cursor: pointer;
+        transition: all ease-in .3s;
+}
+
+.intro_section ul a{
+    color: var(--hColor);
+
+}
+.intro_section ul li:hover{
+    opacity: .5;
+}
+.Scroll_To_top {
+    transition: all ease-in-out 1s;
+    animation-name: tranz2;
+    animation-duration: .5s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    transition: all ease-in .3s;
+    background-color: var(--btnColor) !important;
+}
+
+.Scroll_To_top:hover {
+    opacity: .7;
+}
+
+@keyframes tranz2 {
+    0% {
+        transform: translateY(100px);
+    }
+
+    100% {
+        transform: translateY(10px);
+    }
+}

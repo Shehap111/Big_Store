@@ -1,0 +1,47 @@
+.Blogs{
+    padding: 70px 0;
+}
+.Blogs .box{
+    padding: 25px;
+    overflow: hidden;
+}
+.Blogs .box .image{
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+.Blogs .box .image img{
+    min-width: 100%;
+    min-height: 300px;
+}
+.Blogs .box .content {
+    text-align: left;
+}
+.Blogs .box .content h3{
+    font-size: 24px;
+    width: 100%;
+    text-align: left  ;
+    color: var(--secondColor);
+    height: 30px;
+    overflow: hidden;
+}
+.Blogs .box .content p{
+    height: 80px;
+    overflow: hidden;
+}
+.Blogs .bottom_Contant{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.Blogs .bottom_Contant img{
+    width: 35px !important;
+    height: 35px !important;
+}
+.Blogs .bottom_Contant span{
+    font-size: 16px;
+}

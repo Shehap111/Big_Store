@@ -1,0 +1,304 @@
+{
+  "footer": {
+    "subscribeTitle": "Subscribe for Join Us!",
+    "subscribeDescription": "Subscribe to get information coupons.",
+    "placeholder": "Your email address...",
+    "subscribeButton": "Subscribe",
+    "getInTouch": "Get in touch",
+    "callUs": "Call Us 24/7 Free",
+    "address": "60, 29th Street, San Francisco, CA 94110, United States support@arostore.com",
+    "information": "Information",
+    "aboutUs": "About Us",
+    "services": "Services",
+    "shop": "Shop",
+    "contactUs": "Contact Us",
+    "privacyPolicy": "Privacy Policy",
+    "login": "Login",
+    "usefulLinks": "Useful Links",
+    "smartphones": "Smartphones",
+    "laptop": "Laptop",
+    "clothes": "Clothes",
+    "fitnessEquipment": "Fitness Equipment",
+    "campingGear": "Camping Gear",
+    "myAccount": "My account",
+    "orders": "Orders",
+    "copyRight": "© 2025 brand store. All rights reserved.",
+    "madeWith": "Made with",
+    "by": "by"
+  },
+  "header": {
+    "home": "Home",
+    "about": "About",
+    "shop": "Shop",
+    "categorys": "Categories",
+    "blogs": "Blogs",
+    "contact": "Contact",
+    "cart": "Cart",
+    "wishlist": "Favorites",
+    "profile": "Profile",
+    "logout": "Logout",
+    "login": "Login"
+  },
+    "about": {
+    "introTitle": "About us",
+    "introLink": "AboutUs",
+    "luxuryProductsTitle": "Luxury & high-end technology products",
+    "description": "Nulla bibendum tincidunt ligula, a placerat dolor viverra eget. Maecenas id diam sed ligula facilisis lacinia. Nunc maximus est ut sem varius suscipit. Phasellus vel tellus viverra, lacinia metus et, faucibus tellus. Etiam hendrerit est viverra eros mollis, a laoreet ante dictum. Aliquam erat volutpat. Vivamus tempor blandit dui vel interdum. Nam maximus nunc a augue pulvinar, non euismod mauris tempus.",
+    "technologyProduct": "Technology product",
+    "employees": "Employees",
+    "happyUsers": "Happy Users",
+    "ourStores": "Our Stores",
+    "whirlpoolExperience": "About WhitPooL. We believe the best experience always wins",
+    "quote": "“ Our work does make sense only if it is a faithful witness of its time. ”",
+    "teamTitle": "The.Our Team.Press.",
+    "paragraph1": "Pellentesque sodales ornare nulla. Nullam elementum est quis tortor ultricies tristique.",
+    "paragraph2": "Nulla bibendum tincidunt ligula, a placerat dolor viverra eget. Maecenas id diam sed ligula facilisis lacinia.",
+    "socialLinks": "Social Links"
+  },
+  "contact": {
+    "title": "Contact US",
+    "subtitle": "Get In Touch With Us",
+    "successMessage": "Your message has been sent successfully!",
+    "form": {
+      "fullName": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone No.",
+      "message": "Your message",
+      "submit": "SUBMIT",
+      "submitting": "Submitting..."
+    },
+    "getInTouch": {
+      "title": "Get In Touch",
+      "description": "If you are interested in working with us, please get in touch.",
+      "addressTitle": "Our Address",
+      "addressDetails": "1247/Plot No. 39, 15th Phase, Huab Colony, Kukatpally, Hyderabad",
+      "emailTitle": "Our Email",
+      "emailDetails": "info@Shehap@gmail.com"
+    } 
+},
+"Intro":{
+      "title": "Home"
+  
+},
+  "login": {
+    "emailPlaceholder": "E-mail",
+    "passwordPlaceholder": "Password",
+    "signIn": "Sign In",
+    "noAccount": "Don't have an account?",
+    "success": "You have been logged in successfully",
+    "noUserData": "There is no user data associated with this email",
+    "invalidCredentials": "Invalid email or password. Please try again"
+  },
+    "register": {
+    "fullNamePlaceholder": "Full Name",
+    "emailPlaceholder": "E-mail",
+    "phonePlaceholder": "Phone",
+    "passwordPlaceholder": "Password",
+    "signUpButton": "Sign Up",
+    "alreadyHaveAccount": "I already have an account",
+    "uploadError": "Please choose a correct picture",
+    "successMessage": "Registration completed successfully",
+    "registrationFailed": "Registration failed: {error}",
+    "invalidImage": "Please choose a valid picture",
+    "signUp": "Sign Up"
+  },
+  "categories":{
+    "introLink": "Categories",
+    "view": "View"
+  },
+  "supCategories":{
+    "introLink": "Subcategories",
+    "view": "View"
+  },
+  "Products_by_supcat":{
+  "addToCart": "Add to Cart",
+  "products": "Products"
+  },
+  "Cart": {
+    "introLink": "Cart",
+    "emptyMessage": "Your cart is empty!",
+    "table": {
+      "product": "Product",
+      "name": "Name",
+      "price": "Price",
+      "quantity": "Quantity",
+      "total": "Total",
+      "Clear": "Clear Cart",
+      "delete": "Delete"
+    },
+    "summary": {
+      "totalProducts": "Total Products",
+      "totalQuantity": "Total Quantity",
+      "subTotal": "Subtotal",
+      "shippingFee": "Shipping Fee",
+      "freeShipping": "Free Shipping",
+      "totalAmount": "Total Amount"
+    },
+   "Checkout":"Checkout",
+   "Login":"Login"    
+}, "Checkout":{
+      "AddressForm": {
+    "title": "Add New Address",
+    "formLabels": {
+      "fullName": "Full Name",
+      "phoneNumber": "Phone Number",
+      "city": "City",
+      "governorate": "Governorate",
+      "selectGovernorate": "Select Governorate",
+      "detailedAddress": "Detailed Address",
+      "postalCode": "Postal Code"
+    },
+    "buttons": {
+      "saveAddress": "Save Address"
+    },
+    "alerts": {
+      "success": "Address saved successfully!",
+      "error": "Failed to save address."
+    }
+  },
+ "productDisplay": {
+    "title": "Your products in the cart",
+    "noProductsMessage": "No products in the cart.",
+    "quantity": "Quantity"
+  },
+  "addressSelection": {
+    "title": "Select an address",
+    "loading": "Loading addresses...",
+    "noAddresses": "No addresses added."
+  },
+  "paymentMethodSelection": {
+    "title": "Select payment method",
+    "onlinePayment": "Online Payment",
+    "cashOnDelivery": "Cash on Delivery"
+  },
+  "checkout": {
+    "subtotal": "Subtotal",
+    "shippingFee": "Shipping fee",
+    "freeShipping": "Free shipping",
+    "totalAmount": "Total Amount",
+    "completeOrder": "Complete order",
+    "processingOrder": "Processing order...",
+    "alerts": {
+      "loginRequired": "You must log in to complete the order.",
+      "selectAddress": "Please select an address for the order.",
+      "selectPaymentMethod": "Please select a payment method.",
+      "emptyCart": "No products in the cart!",
+      "orderSuccess": "Order successfully placed! Thank you for shopping with us.",
+      "paymentError": "An error occurred while redirecting to the payment page.",
+      "sessionError": "An error occurred while creating the payment session."
+    }
+  },
+  "SuccessPage":{
+    "Thank-for-purchasing":"Thank you for purchasing our products. Your order will be shipped soon.",
+    "Payment-completed-successfully":"Payment completed successfully"
+  }  
+
+
+  },
+"Products":{
+  "Products":"Products",
+  "Filters": {
+    "Filters": "Filters",
+    "Category": "Category",
+    "All": "All",
+    "Minimum-Rating": "Minimum Rating",
+    "Price-Range": "Price Range",
+    "Sort-By": "Sort By Price",
+    "Low-to-High":"Low to High",
+    "High-to-Low":"High to Low"
+  },
+  "Product": {
+    "Discount": "Discount",
+    "Add-to-Cart": "Add to Cart",
+    "No-products-match": "No products match the selected filters."
+  }
+},"Single-product":{
+  "Price":"Price",
+  "Brand":"Brand",
+  "Category":"Category",
+  "Subcategory":"Subcategory",
+  "description":"Description",
+  "Discount":"Discount",
+  "Stock":"Stock",
+  "Reviews":"Reviews",
+  "Rating":"Rating",
+  "Available-Colors":"Available Colors",  
+  "Add-to-Cart":"Add to Cart"
+},
+  "User": {
+"Profile":{
+  "Profile":"Profile",  
+  "Edit-Profile":"Edit Profile",
+  "Orders":"Orders",
+  "Favorites":"Favorites",
+  "Address":"Address",
+  "Logout":"Logout",
+  "Hello":"Hello",
+  "User_not_login":"User not logged in",
+  "Lodding":"Loading data..."
+},
+  
+"Address": {
+  "address": "Address",
+  "your_addresses": "Your Addresses",
+  "add_new_address": "Add New Address",
+  "edit_address": "Edit Address",
+  "full_name": "Full Name",
+  "detailed_address": "Detailed Address",
+  "city": "City",
+  "state": "State",
+  "postal_code": "Postal Code",
+  "phone_number": "Phone Number",
+  "add_address": "Add Address",
+  "update_address": "Update Address",
+  "shipping_address": "Shipping Address",
+  "name": "Name",
+  "address_details": "Address",
+  "phone": "Phone",
+  "edit": "Edit",
+  "delete": "Delete",
+  "no_addresses": "No addresses found",
+  "address_added": "Address added successfully",
+  "address_updated": "Address updated successfully",
+  "address_deleted": "Address deleted successfully",
+  "loading": "Loading..."
+},
+"Edit_profile":{
+  "profile_updated": "Profile has been successfully updated",
+  "profile_update_failed": "Failed to update profile",
+  "invalid_image": "Please select a valid image file",
+  "profile_picture": "Profile Picture",
+  "name": "Name",
+  "phone": "Phone Number",
+  "update_profile": "Update Profile"
+},
+"orders": {
+  "your_orders": "Your Orders",
+  "order_id": "Order ID",
+  "order_status": "Order Status",
+  "payment_status": "Payment Status",
+  "total": "Total",
+  "products_count": " Products",
+  "view_details": "View Details"
+},
+"SingleOrder":{
+  "Order-Details":"Order Details",
+  "Shipping_Address":"Shipping Address",
+  "Price":"Price",
+  "Total-Amount":"Total Amount",
+  "Shipping-Fee":"Shipping Fee",
+  "Payment-Method":"Payment Method",
+  "Delivery-Date":"Delivery Date",
+  "Processing":"Processing",
+  "Shipped":"Shipped",
+  "Delivered":"Delivered"
+
+}
+
+
+
+}
+
+}
+
+

@@ -1,0 +1,294 @@
+{
+  "footer": {
+    "subscribeTitle": "اشترك معنا!",
+    "subscribeDescription": "اشترك للحصول على قسائم المعلومات.",
+    "placeholder": "عنوان بريدك الإلكتروني...",
+    "subscribeButton": "اشترك",
+    "getInTouch": "تواصل معنا",
+    "callUs": "اتصل بنا 24/7 مجانا",
+    "address": "60، 29th Street، سان فرانسيسكو، كاليفورنيا 94110، الولايات المتحدة support@arostore.com",
+    "information": "معلومات",
+    "aboutUs": "من نحن",
+    "services": "الخدمات",
+    "shop": "المتجر",
+    "contactUs": "اتصل بنا",
+    "privacyPolicy": "سياسة الخصوصية",
+    "login": "تسجيل الدخول",
+    "usefulLinks": "روابط مفيدة",
+    "smartphones": "الهواتف الذكية",
+    "laptop": "اللاب توب",
+    "clothes": "الملابس",
+    "fitnessEquipment": "معدات اللياقة البدنية",
+    "campingGear": "معدات التخييم",
+    "myAccount": "حسابي",
+    "orders": "الطلبات",
+    "copyRight": "© 2025 متجر العلامة التجارية. جميع الحقوق محفوظة.",
+    "madeWith": "صنع مع",
+    "by": "بواسطة"
+  },
+  "header": {
+    "home": "الرئيسية",
+    "about": "من نحن",
+    "shop": "المتجر",
+    "categorys": "الفئات",
+    "blogs": "المدونات",
+    "contact": "اتصل بنا",
+    "cart": "عربة التسوق",
+    "wishlist": "المفضلة",
+    "profile": "الملف الشخصي",
+    "logout": "تسجيل الخروج",
+    "login": "تسجيل الدخول"
+  },
+"about": {
+  "introTitle": "من نحن",
+  "introLink": "عنّا",
+  "luxuryProductsTitle": "منتجات فاخرة وتقنيات متقدمة",
+  "description": "لا يوجد شيء أروع من الاهتمام بالتفاصيل. ما يميزنا هو إيماننا بأن تقديم أفضل تجربة هو دائمًا مفتاح النجاح. نحن نقدم منتجات تجمع بين الرفاهية والتكنولوجيا المتطورة.",
+  "technologyProduct": "منتج تقني",
+  "employees": "الموظفون",
+  "happyUsers": "مستخدمون سعداء",
+  "ourStores": "متاجرنا",
+  "whirlpoolExperience": "عن وايت بوول. نؤمن أن أفضل تجربة دائمًا تنتصر",
+  "quote": "“ عملنا له معنى فقط إذا كان شاهدًا أمينًا على زمنه. ”",
+  "teamTitle": "فريقنا. الصحافة.",
+  "paragraph1": "بيللينتسكي سوداليس أورناري نولا. نولام إليمينتوم إست كويس تورتر أولتريسيز تريستيك.",
+  "paragraph2": "لا يوجد شيء أعظم من الابتكار. نحن نقدم تجربة استثنائية تركز على التفاصيل الصغيرة.",
+  "socialLinks": "روابط التواصل الاجتماعي"
+},
+
+  "contact": {
+    "title": "تواصل معنا",
+    "subtitle": "ابقَ على تواصل معنا",
+    "successMessage": "تم إرسال رسالتك بنجاح!",
+    "form": {
+      "fullName": "الاسم الكامل",
+      "email": "عنوان البريد الإلكتروني",
+      "phone": "رقم الهاتف",
+      "message": "رسالتك",
+      "submit": "إرسال",
+      "submitting": "جاري الإرسال..."
+    },
+    "getInTouch": {
+      "title": "ابقَ على تواصل",
+      "description": "إذا كنت مهتمًا بالتعاون معنا، يرجى التواصل.",
+      "addressTitle": "عنواننا",
+      "addressDetails": "1247/المخطط رقم 39، المرحلة 15، مستعمرة هواب، كوكاتبالي، حيدر أباد",
+      "emailTitle": "بريدنا الإلكتروني",
+      "emailDetails": "info@Shehap@gmail.com"
+    }
+  },
+"Intro":{
+    "title": "الصفحة الرئيسية"
+  
+},
+  "login": {
+    "emailPlaceholder": "البريد الإلكتروني",
+    "passwordPlaceholder": "كلمة المرور",
+    "signIn": "تسجيل الدخول",
+    "noAccount": "ليس لديك حساب؟",
+    "success": "تم تسجيل الدخول بنجاح",
+    "noUserData": "لا توجد بيانات مستخدم مرتبطة بهذا البريد الإلكتروني",
+    "invalidCredentials": "البريد الإلكتروني أو كلمة المرور غير صحيحة. يرجى المحاولة مرة أخرى"
+  },
+  "register": {
+    "fullNamePlaceholder": "الاسم الكامل",
+    "emailPlaceholder": "البريد الإلكتروني",
+    "phonePlaceholder": "رقم الهاتف",
+    "passwordPlaceholder": "كلمة المرور",
+    "signUpButton": "تسجيل",
+    "alreadyHaveAccount": "لدي حساب بالفعل",
+    "uploadError": "يرجى اختيار صورة صحيحة",
+    "successMessage": "تم التسجيل بنجاح",
+    "registrationFailed": "فشل التسجيل: {error}",
+    "invalidImage": "يرجى اختيار صورة صحيحة",
+    "signUp": "إنشاء حساب"
+  },
+"Cart": {
+  "introLink": "عربة التسوق",
+  "emptyMessage": "عربة التسوق فارغة!",
+  "table": {
+    "product": "المنتج",
+    "name": "الاسم",
+    "price": "السعر",
+    "quantity": "الكمية",
+    "total": "الإجمالي",
+    "Clear": "تفريغ العربة",
+    "delete": "مسح"
+  },
+  "summary": {
+    "totalProducts": "إجمالي المنتجات",
+    "totalQuantity": "إجمالي الكمية",
+    "subTotal": "المجموع الفرعي",
+    "shippingFee": "رسوم الشحن",
+    "freeShipping": "شحن مجاني",
+    "totalAmount": "الإجمالي الكلي"
+  },
+"Checkout": "الدفع",
+"Login": "تسجيل الدخول"
+
+},  
+"Checkout": {
+    "AddressForm": {
+      "title": "إضافة عنوان جديد",
+      "formLabels": {
+        "fullName": "الاسم الكامل",
+        "phoneNumber": "رقم الهاتف",
+        "city": "المدينة",
+        "governorate": "المحافظة",
+        "selectGovernorate": "اختر المحافظة",
+        "detailedAddress": "العنوان التفصيلي",
+        "postalCode": "الرمز البريدي"
+      },
+      "buttons": {
+        "saveAddress": "حفظ العنوان"
+      },
+      "alerts": {
+        "success": "تم حفظ العنوان بنجاح!",
+        "error": "فشل في حفظ العنوان."
+      }
+    },
+"productDisplay": {
+  "title": "منتجاتك في عربة التسوق",
+  "noProductsMessage": "لا توجد منتجات في عربة التسوق.",
+  "quantity": "الكمية"
+},
+"addressSelection": {
+  "title": "اختر عنوانًا",
+  "loading": "جاري تحميل العناوين...",
+  "noAddresses": "لم يتم إضافة أي عناوين."
+},
+"paymentMethodSelection": {
+  "title": "اختر طريقة الدفع",
+  "onlinePayment": "الدفع الإلكتروني",
+  "cashOnDelivery": "الدفع عند الاستلام"
+},
+"checkout": {
+  "subtotal": "المجموع الفرعي",
+  "shippingFee": "رسوم الشحن",
+  "freeShipping": "شحن مجاني",
+  "totalAmount": "المبلغ الإجمالي",
+  "completeOrder": "إكمال الطلب",
+  "processingOrder": "جاري معالجة الطلب...",
+  "alerts": {
+    "loginRequired": "يجب تسجيل الدخول لإكمال الطلب.",
+    "selectAddress": "يرجى اختيار عنوان للطلب.",
+    "selectPaymentMethod": "يرجى اختيار طريقة دفع.",
+    "emptyCart": "لا توجد منتجات في عربة التسوق!",
+    "orderSuccess": "تم تقديم الطلب بنجاح! شكرًا لتسوقك معنا.",
+    "paymentError": "حدث خطأ أثناء إعادة التوجيه لصفحة الدفع.",
+    "sessionError": "حدث خطأ أثناء إنشاء جلسة الدفع."
+  }
+},
+"SuccessPage": {
+  "Thank-for-purchasing": "شكرًا لشرائك منتجاتنا. سيتم شحن طلبك قريبًا.",
+  "Payment-completed-successfully": "تم الدفع بنجاح"
+}
+
+
+
+
+},
+"Products":{
+  "Products":"المنتجات",
+  "Filters": {
+    "Filters": "الفلاتر",
+    "Category": "الفئة",
+    "All": "الكل",
+    "Minimum-Rating": "أقل تقييم",
+    "Price-Range": "نطاق السعر",
+    "Sort-By": "الترتيب حسب السعر",
+    "Low-to-High":"من الأقل إلى الأعلى",
+    "High-to-Low":"من الأعلى إلى الأقل"
+  },
+  "Product": {
+    "Discount": "خصم",
+    "Add-to-Cart": "أضف إلى السلة",
+    "No-products-match": "لا توجد منتجات تطابق الفلاتر المحددة."
+  }
+},"Single-product":{
+  "Price":"السعر",
+  "Brand":"العلامة التجارية",
+  "Category":"الفئة",
+  "Subcategory":"الفئة الفرعية",
+  "description":"الوصف",
+  "Discount":"الخصم",
+  "Stock":"المخزون",
+  "Reviews":"التقييمات",
+  "Rating":"التصنيف",
+  "Available-Colors":"الألوان المتاحة",  
+  "Add-to-Cart":"أضف إلى السلة"
+},
+ "User": {
+"Profile":{
+  "Profile":"الملف الشخصي",  
+  "Edit-Profile":"تعديل الملف الشخصي",
+  "Orders":"الطلبات",
+  "Favorites":"المفضلة",
+  "Address":"العنوان",
+  "Logout":"تسجيل الخروج",
+  "Hello":"مرحبًا",
+  "User_not_login":"المستخدم غير مسجل دخول",
+  "Lodding":"جارٍ تحميل البيانات..."
+},
+    "Address": {
+      "address": "العنوان",
+      "your_addresses": "عناوينك",
+      "add_new_address": "إضافة عنوان جديد",
+      "edit_address": "تعديل العنوان",
+      "full_name": "الاسم الكامل",
+      "detailed_address": "العنوان التفصيلي",
+      "city": "المدينة",
+      "state": "المحافظة",
+      "postal_code": "الرمز البريدي",
+      "phone_number": "رقم الهاتف",
+      "add_address": "إضافة العنوان",
+      "update_address": "تحديث العنوان",
+      "address_added": "تمت إضافة العنوان بنجاح",
+      "address_updated": "تم تحديث العنوان بنجاح",
+      "address_deleted": "تم حذف العنوان بنجاح",
+      "loading": "جارٍ التحميل...",
+      "shipping_address": "عنوان الشحن",
+      "name": "الاسم",
+      "no_addresses": "لا توجد عناوين",
+      "edit": "تعديل",
+      "phone": "الهاتف"
+},
+"Edit_profile":{
+  "profile_updated": "تم تحديث الملف الشخصي بنجاح",
+  "profile_update_failed": "فشل تحديث الملف الشخصي",
+  "invalid_image": "يرجى اختيار ملف صورة صالح",
+  "profile_picture": "صورة الملف الشخصي",
+  "name": "الاسم",
+  "phone": "رقم الهاتف",
+  "update_profile": "تحديث الملف الشخصي"
+},
+"orders": {
+  "your_orders": "طلباتك",
+  "order_id": "رقم الطلب",
+  "order_status": "حالة الطلب",
+  "payment_status": "حالة الدفع",
+  "total": "الإجمالي",
+  "products_count": " منتجات",
+  "view_details": "عرض التفاصيل"
+},
+"SingleOrder":{
+  "Order-Details":"تفاصيل الطلب",
+  "Shipping_Address":"عنوان الشحن",
+  "Price":"السعر",
+  "Total-Amount":"إجمالي المبلغ",
+  "Shipping-Fee":"رسوم الشحن",
+  "Payment-Method":"طريقة الدفع",
+  "Delivery-Date":"تاريخ التسليم",
+  "Processing":"قيد المعالجة",
+  "Shipped":"تم الشحن",
+  "Delivered":"تم التوصيل"
+
+  
+}
+
+
+
+
+  }
+}
+
