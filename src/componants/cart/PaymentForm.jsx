@@ -197,7 +197,7 @@ const handleCheckout = async () => {
       navigate("/Profile/orders");
       window.location.reload();
     } else if (paymentMethod === "online") {
-const response = await fetch("https://big-store-server-olat2aha4-shehaps-projects-baaa1b50.vercel.app/create-checkout-session", {
+      const response = await fetch("https://big-store-server.vercel.app/create-checkout-session", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
