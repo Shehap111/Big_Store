@@ -1,10 +1,9 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
 
-// https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-    build: {
-    target: "esnext"
-  }
-})
+  build: {
+    target: ["es2022", "chrome100", "safari15"], // تحديث لدعم top-level await
+  },
+});
