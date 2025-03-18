@@ -1,11 +1,14 @@
 {
   "headers": [
     {
-      "source": "/(.*).js",
+      "source": "/assets/(.*).js",
       "headers": [
         { "key": "Content-Type", "value": "application/javascript" }
       ]
     }
+  ],
+  "redirects": [
+    { "source": "/index.html", "destination": "/" }
   ],
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }
