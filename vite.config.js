@@ -3,14 +3,16 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
+  base: "/", // استخدم "/" عشان يضبط المسارات بشكل صحيح بعد الرفع على Vercel
   build: {
-    target: 'esnext', // تأكد من أنها esnext
-    polyfillModulePreload: false, // تعطيل الـ polyfill لتجنب الأخطاء
+    target: 'esnext',
+    polyfillModulePreload: false
   },
   server: {
-    historyApiFallback: true, // حل مشكلة الريفريش وإعادة التوجيه للـ index.html
+    historyApiFallback: true
   },
   preview: {
-    historyApiFallback: true, // يضمن نفس السلوك عند تشغيل preview
-  }
+    historyApiFallback: true
+  },
+  assetsInclude: ['**/*.js', '**/*.css', '**/*.html'] // يضمن تحميل الملفات بدون مشاكل MIME
 });
