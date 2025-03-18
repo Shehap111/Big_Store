@@ -3,16 +3,22 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: "/", // استخدم "/" عشان يضبط المسارات بشكل صحيح بعد الرفع على Vercel
+  base: "/", // تأكد إن base مظبوط
   build: {
     target: 'esnext',
-    polyfillModulePreload: false
+    polyfillModulePreload: false,
+    rollupOptions: {
+      output: {
+        entryFileNames: "assets/[name].js",
+        chunkFileNames: "assets/[name].js",
+        assetFileNames: "assets/[name].[ext]"
+      }
+    }
   },
   server: {
     historyApiFallback: true
   },
   preview: {
     historyApiFallback: true
-  },
-  assetsInclude: ['**/*.js', '**/*.css', '**/*.html'] // يضمن تحميل الملفات بدون مشاكل MIME
+  }
 });
